@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(ls -all -m -F )"
+echo "$(ls -all -m -F --file-type )"
