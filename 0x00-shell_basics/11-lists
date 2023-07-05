@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(ls -lA) \n $(ls -lA $pwd) \n $(ls -lA /boot) "
+echo -e ".:\n$(ls -all)\n..:\n$(ls -lA $pwd)\n/boot:\n$(ls -lA /boot)"
