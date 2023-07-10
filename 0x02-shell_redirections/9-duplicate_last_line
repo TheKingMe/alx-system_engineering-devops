@@ -1,2 +1,2 @@
-#!/bin/bash
-tail -n 1 iact
+#!/bin/bash 
+cat 8-cwd_state & tail -n 1 8-cwd_state
